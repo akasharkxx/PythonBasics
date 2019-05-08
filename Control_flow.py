@@ -36,7 +36,7 @@ while currentPos < endPoint:
     currentPos += 1
     print(currentPos)
 
-numArray = [13,42,53,75,12]
+numArray = [13, 42, 53, 75, 12]
 
 for num in numArray:
     print(num * 2)
