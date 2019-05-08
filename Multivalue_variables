@@ -1,0 +1,44 @@
+# Multivalue variables
+# Tuples
+# Arrays
+# Dictionaries
+
+tuple1 = (1, 2, 3, 4, 5)
+stringTuple = ("mammoth", "whale", "hello")
+mixedTuple = (1, "hii", 10.5)
+print("length of number tuple", len(tuple1))
+print("length of the string tuple", len(stringTuple))
+print("length of mixed tuple",len(mixedTuple))
+print("maximum of sting tuple", max(stringTuple))
+print("minimum of number tuple", min(tuple1))
+print("index of element 2", mixedTuple.index("hii"))\
+
+pets = ["cat", "dog", "snake", "cow"]
+print(pets)
+print(pets[2:])
+pets[2] = "anaconda"
+print(pets)
+pets.append("cobra")
+print(pets)
+pets.insert(2,"naag")
+print(pets)
+pets.remove("cobra") # because naag is better
+print(pets)
+del pets[3]
+print(pets)
+print("number of pets", len(pets))
+
+poison = ["curare", "ricin", "strychine"]
+toHave = [pets, poison]
+print(toHave)
+print(toHave[1][2])
+toHave1 = pets + poison
+print(toHave1)
+
+listOfStudents = {0:"Akash", 1:"Sunflower", 2:"Lara"}
+print(listOfStudents)
+print(listOfStudents[0])
+listOfStudents[2] = "AJ"
+print(listOfStudents)
+print(listOfStudents.keys())
+print(listOfStudents.values())
